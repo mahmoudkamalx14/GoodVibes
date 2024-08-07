@@ -51,6 +51,7 @@ class AppTextButton extends StatelessWidget {
         ),
       ),
       child: Text(
+        textDirection: TextDirection.rtl,
         textButton,
         style: textStyle ??
             AppStyles.style24ExtraBold.copyWith(color: Colors.white),

@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:goodvibes/core/functions/build_page_route.dart';
 import 'package:goodvibes/core/routes/routes.dart';
+import 'package:goodvibes/features/auth/presentation/screens/login_screen.dart';
+import 'package:goodvibes/features/auth/presentation/screens/signup_screen.dart';
 import 'package:goodvibes/features/onboarding/presentation/screens/onboarding_screen.dart';
 
 class AppRouter {
@@ -14,17 +16,17 @@ class AppRouter {
           settings: settings,
         );
 
-      // case Routes.loginScreen:
-      //   return smoothEaseInOutPageRoute(
-      //     LoginScreen(),
-      //     settings: settings,
-      //   );
+      case Routes.loginScreen:
+        return smoothEaseInOutPageRoute(
+          const LoginScreen(),
+          settings: settings,
+        );
 
-      // case Routes.signupScreen:
-      //   return smoothEaseInOutPageRoute(
-      //     const SignupScreen(),
-      //     settings: settings,
-      //   );
+      case Routes.signupScreen:
+        return smoothEaseInOutPageRoute(
+          const SignupScreen(),
+          settings: settings,
+        );
 
       default:
         return null;

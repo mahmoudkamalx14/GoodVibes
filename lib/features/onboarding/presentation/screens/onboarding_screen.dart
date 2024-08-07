@@ -12,6 +12,7 @@ class OnBoardingScreen extends StatelessWidget {
       itemBuilder: (context, index) => OnBoardingItemWidget(index: index),
       itemCount: onBoardingList.length,
       controller: onBoardingController,
+      reverse: true,
     );
   }
 }
