@@ -62,6 +62,7 @@ class _OnBoardingItemWidgetState extends State<OnBoardingItemWidget> {
                   controller: onBoardingController,
                   count: onBoardingList.length,
                   axisDirection: Axis.horizontal,
+                  textDirection: TextDirection.rtl,
                   effect: SlideEffect(
                     spacing: 8.0,
                     radius: 8.0,
