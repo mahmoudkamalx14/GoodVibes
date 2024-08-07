@@ -1,7 +1,7 @@
 // validators.dart
 String? notEmptyValidator(String? value) {
   if (value == null || value.isEmpty) {
-    return 'هذا الحقل مطلوب';
+    return 'الرجاء إدخال بريد الإسم';
   }
   return null;
 }

@@ -17,7 +17,7 @@ class LoginScreen extends StatelessWidget {
       body: SafeArea(
         child: SingleChildScrollView(
           child: Padding(
-            padding: EdgeInsets.symmetric(vertical: 48.h, horizontal: 48.w),
+            padding: EdgeInsets.symmetric(vertical: 48.h, horizontal: 24.w),
             child: Center(
               child: Directionality(
                 textDirection: TextDirection.rtl,
